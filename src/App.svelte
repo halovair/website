@@ -1,7 +1,4 @@
 <script lang="ts">
-  import svelteLogo from "./assets/svelte.svg";
-  import viteLogo from "/vite.svg";
-  import Counter from "./lib/Counter.svelte";
   import HaloVairLogo from "./assets/hv_logo.webp";
   import SocialMediaIcons from "./lib/Social_Media_Icons.svelte";
   import Mailerlite from "./lib/Mailerlite.svelte";
@@ -52,6 +49,8 @@
 </main>
 
 <style>
+
+
   .footer {
     margin-top: 100px;
   }
@@ -86,7 +85,7 @@
   }
 
   .logo {
-    height: 500px;
+    height: 50vw;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;

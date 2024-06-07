@@ -26,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
