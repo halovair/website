@@ -45,7 +45,7 @@
   </div>
 
   <div class="footer">
-    <span>Halo Vair 2024 © - All Rights Reserved </span>
+    <span>Halo Vair {new Date().getFullYear()} © - All Rights Reserved </span>
   </div>
 
   <div class="background"></div>
@@ -53,7 +53,7 @@
 
 <style>
   .footer {
-  margin-top: 100px;
+    margin-top: 100px;
   }
 
   .spotify-container {
