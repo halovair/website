@@ -4,6 +4,7 @@
   import Counter from "./lib/Counter.svelte";
   import HaloVairLogo from "./assets/hv_logo.webp";
   import SocialMediaIcons from "./lib/Social_Media_Icons.svelte";
+  import Mailerlite from "./lib/Mailerlite.svelte";
 </script>
 
 <main>
@@ -26,10 +27,38 @@
     ></iframe>
   </div>
 
+  <div class="spotify-container">
+    <iframe
+      title="Spotify"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/artist/4qjr6ECyk3yhokw8onrIAu?utm_source=generator"
+      width="100%"
+      height="500"
+      frameBorder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div>
+    <Mailerlite />
+  </div>
+
+  <div class="footer">
+    <span>Halo Vair 2024 © - All Rights Reserved </span>
+  </div>
+
   <div class="background"></div>
 </main>
 
 <style>
+  .footer {
+  margin-top: 100px;
+  }
+
+  .spotify-container {
+    margin-top: 100px;
+  }
   .video-container {
     margin-top: 100px;
     position: relative;
