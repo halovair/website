@@ -13,6 +13,4 @@
   <Router {routes} />
 </main>
 
-<style>
-  /* Your styles here */
-</style>
+

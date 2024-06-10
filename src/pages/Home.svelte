@@ -5,54 +5,63 @@
   import { link } from "svelte-spa-router";
 </script>
 
-<a href="/">
-  <img src={HaloVairLogo} class="logo" alt="Vite Logo" />
-</a>
-<div class="nav-wrapper">
-  <SocialMediaIcons />
-  <div class="vertical-line"></div>
-  <div class="link-wrapper">
-    <a class="link-wrapper-text" href="/bio" use:link>Bio & Press</a>
+<div class="main-container">
+  <a href="/">
+    <img src={HaloVairLogo} class="logo" alt="Vite Logo" />
+  </a>
+  <div class="nav-wrapper">
+    <SocialMediaIcons />
+    <div class="vertical-line"></div>
+    <div class="link-wrapper">
+      <a class="link-wrapper-text" href="/bio" use:link>Bio & Press</a>
+    </div>
   </div>
-</div>
-<p>Quality, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
+  <p>Quality, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
 
-<div class="video-container">
-  <iframe
-    width="5120"
-    height="315"
-    src="https://www.youtube.com/embed/MZRogU-LTgk?si=WnCKT6ms8aR9tMlH"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-</div>
+  <div class="video-container">
+    <iframe
+      width="5120"
+      height="315"
+      src="https://www.youtube.com/embed/MZRogU-LTgk?si=WnCKT6ms8aR9tMlH"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
 
-<div class="spotify-container">
-  <iframe
-    title="Spotify"
-    style="border-radius:12px"
-    src="https://open.spotify.com/embed/artist/4qjr6ECyk3yhokw8onrIAu?utm_source=generator"
-    width="100%"
-    height="500"
-    frameBorder="0"
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    loading="lazy"
-  ></iframe>
-</div>
-<div>
-  <Mailerlite />
-</div>
+  <div class="spotify-container">
+    <iframe
+      title="Spotify"
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/artist/4qjr6ECyk3yhokw8onrIAu?utm_source=generator"
+      width="100%"
+      height="500"
+      frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div>
+    <Mailerlite />
+  </div>
 
-<div class="footer">
-  <span>Halo Vair {new Date().getFullYear()} © - All Rights Reserved </span>
-</div>
+  <div class="footer">
+    <span>Halo Vair {new Date().getFullYear()} © - All Rights Reserved </span>
+  </div>
 
-<div class="background"></div>
+  <div class="background"></div>
+</div>
 
 <style>
+  .footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .main-container {
+    padding: 40px;
+  }
   .link-wrapper-text {
     color: white;
     font-size: 24px;
@@ -76,10 +85,6 @@
     border-left: 2px solid white;
     padding: 5px;
     margin: 0 20px;
-  }
-
-  .footer {
-    margin-top: 100px;
   }
 
   .spotify-container {
