@@ -3,6 +3,7 @@
   import SocialMediaIcons from "../lib/Social_Media_Icons.svelte";
   import Mailerlite from "../lib/Mailerlite.svelte";
   import { link } from "svelte-spa-router";
+  const basepath = import.meta.env.VITE_BASE_URL || "/";
 </script>
 
 <div class="main-container">
@@ -13,7 +14,7 @@
     <SocialMediaIcons />
     <div class="vertical-line"></div>
     <div class="link-wrapper">
-      <a class="link-wrapper-text" href="/bio" use:link>Bio & Press</a>
+      <a class="link-wrapper-text" href="{basepath}bio" use:link>Bio & Press</a>
     </div>
   </div>
   <p>Quality, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
@@ -43,7 +44,7 @@
       loading="lazy"
     ></iframe>
   </div>
-  <div>
+  <div class="newsletter-wrapper">
     <Mailerlite />
   </div>
 
@@ -55,6 +56,9 @@
 </div>
 
 <style>
+  .newsletter-wrapper {
+    margin: 80px 0;
+  }
   .footer {
     margin-top: 100px;
     margin-bottom: 20px;

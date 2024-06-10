@@ -1,16 +1,14 @@
 <script>
   import HaloVairLogo from "../assets/hv_logo.webp";
-  import SocialMediaIcons from "../lib/Social_Media_Icons.svelte";
-  import Mailerlite from "../lib/Mailerlite.svelte";
-  import { link } from "svelte-spa-router";
+  const basepath = import.meta.env.VITE_BASE_URL || "/";
 </script>
 
-<a href="/">
+<a href={basepath}>
   <img src={HaloVairLogo} class="logo" alt="Vite Logo" />
 </a>
 
 <main class="bio-container">
-  <a class="link-wrapper-text" href="/">Go Back</a>
+  <a class="link-wrapper-text" href={basepath}>Go Back</a>
   <h1>Bio</h1>
   <p>
     Founded in 2017, Halo Vair is based in Toronto, and is the home-recording project of emerging multi-instrumentalist
@@ -32,7 +30,7 @@
   </p>
 
   <p>For official EPK, please email Halo Vair at halovair@gmail.com</p>
-<br/><br/><br/>
+  <br /><br /><br />
 
   <img class="img-center" src="https://i.imgur.com/Lj9BhGe.jpg" alt="Victor Zohni" scale="0" title="Victor Zohni" />
   <p class="img-caption">Victor Zohni. Credit: David Belenski</p>
@@ -141,7 +139,7 @@
 
   <p class="img-caption">Definition EP Album cover by Victor Zohni</p>
 
-  <a class="link-wrapper-text" href="/">Go Back</a>
+  <a class="link-wrapper-text" href={basepath}>Go Back</a>
 </main>
 
 <div class="footer">
@@ -174,7 +172,7 @@
   .bio-container {
     margin-top: 200px;
     max-width: 1300px;
-    padding:40px;
+    padding: 40px;
   }
 
   .footer {
