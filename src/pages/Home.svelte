@@ -2,6 +2,7 @@
   import HaloVairLogo from "../assets/hv_logo.webp";
   import SocialMediaIcons from "../lib/Social_Media_Icons.svelte";
   import Mailerlite from "../lib/Mailerlite.svelte";
+  import BrevoForm from "../lib/BrevoForm.svelte";
   import { link } from "svelte-spa-router";
   const basepath = import.meta.env.VITE_BASE_URL || "/";
 </script>
@@ -45,7 +46,16 @@
     ></iframe>
   </div>
   <div class="newsletter-wrapper">
-    <Mailerlite />
+    <iframe
+      title="Halo Vair Newsletter Form"
+      width="540"
+      height="620"
+      src="https://7937f353.sibforms.com/serve/MUIFANWlkBkpxXL2QJGZIaE2x9k1Xtpogpnw7kOE90tFEQyhCQ5OzAKiNC-fJp_qdnr7t-Boc_hcrBJaKViaE7O_TfSu3Fg2lCMg8OcC3AQBGr53RtClsCDVMdhx1yxcGwmeznSgkGfi4z7CoqaBlu69C0tVGS-XV1GMN2pUP1NxclrjLo91d07u6AnFsQwx8HyDg-7dZAI9JvMh"
+      frameborder="0"
+      scrolling="auto"
+      allowfullscreen
+      style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
+    ></iframe>
   </div>
 
   <div class="footer">

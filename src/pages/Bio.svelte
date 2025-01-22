@@ -170,7 +170,7 @@
   }
 
   .bio-container {
-    margin-top: 200px;
+    margin-top: 140px;
     max-width: 1300px;
     padding: 40px;
   }
@@ -194,6 +194,7 @@
   }
 
   .logo {
+    margin-top:40px;
     height: 500px;
     padding: 1.5em;
     will-change: filter;

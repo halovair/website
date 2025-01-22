@@ -1,13 +1,5 @@
 <script></script>
 
-<style>
-
-a:hover {
-    filter: drop-shadow(0 0 2em #646cffaa)
-}
-
-</style>
-
 <div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: center;">
   <a
     href="mailto:halovair@gmail.com"
@@ -135,7 +127,7 @@ a:hover {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-    >
+      ><title>Bandcamp social icon</title>
       <rect width="64" height="64" fill="url(#pattern0_60_3)" />
       <defs>
         <pattern id="pattern0_60_3" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -151,3 +143,9 @@ a:hover {
     </svg>
   </a>
 </div>
+
+<style>
+  a:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+</style>
