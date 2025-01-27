@@ -49,7 +49,7 @@
     <iframe
       title="Halo Vair Newsletter Form"
       width="540"
-      height="620"
+      height="621"
       src="https://7937f353.sibforms.com/serve/MUIFANWlkBkpxXL2QJGZIaE2x9k1Xtpogpnw7kOE90tFEQyhCQ5OzAKiNC-fJp_qdnr7t-Boc_hcrBJaKViaE7O_TfSu3Fg2lCMg8OcC3AQBGr53RtClsCDVMdhx1yxcGwmeznSgkGfi4z7CoqaBlu69C0tVGS-XV1GMN2pUP1NxclrjLo91d07u6AnFsQwx8HyDg-7dZAI9JvMh"
       frameborder="0"
       scrolling="auto"
