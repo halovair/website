@@ -86,3 +86,19 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.email {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.smaller-text {
+  font-style: italic;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.bandcamp-container{
+
+  margin: 2rem 0;
+}

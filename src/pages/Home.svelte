@@ -15,7 +15,7 @@
     <SocialMediaIcons />
     <div class="vertical-line"></div>
     <div class="link-wrapper">
-      <a class="link-wrapper-text" href="{basepath}bio" use:link>Bio & Press</a>
+      <a class="link-wrapper-text" href="/bio">Bio & Press</a>
     </div>
   </div>
   <p>Quality, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
@@ -33,7 +33,7 @@
     ></iframe>
   </div>
 
-  <div class="spotify-container">
+  <!-- <div class="spotify-container">
     <iframe
       title="Spotify"
       style="border-radius:12px"
@@ -44,7 +44,16 @@
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       loading="lazy"
     ></iframe>
+  </div> -->
+  <div class="bandcamp-container">
+    <iframe
+      title="Halo Vair Bandcamp Player"
+      style="border: 0; width: 350px; height: 470px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=615285866/size=large/bgcol=ffffff/linkcol=7137dc/tracklist=false/transparent=true/"
+      seamless><a href="https://halovair.bandcamp.com/album/synonym">Synonym by Halo Vair</a></iframe
+    >
   </div>
+
   <div class="newsletter-wrapper">
     <iframe
       title="Halo Vair Newsletter Form"

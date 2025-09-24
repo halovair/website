@@ -1,6 +1,10 @@
 <script>
   import HaloVairLogo from "../assets/hv_logo.webp";
   const basepath = import.meta.env.VITE_BASE_URL || "/";
+  import VZSolo1 from "../assets/VZ_solo1.jpg";
+  import VZSolo2 from "../assets/VZ_solo2.jpg";
+  import VZLive1 from "../assets/VZ_live1.jpg";
+  import VZLive2 from "../assets/VZ_live2.jpg";
 </script>
 
 <a href={basepath}>
@@ -11,60 +15,49 @@
   <a class="link-wrapper-text" href={basepath}>Go Back</a>
   <h1>Bio</h1>
   <p>
-    Founded in 2017, Halo Vair is based in Toronto, and is the home-recording project of emerging multi-instrumentalist
-    Victor Zohni, who contributes to the writing, recording, performance and production. Influenced by Neo-Psychedelic
-    legends such as Tame Impala, King Gizzard & The Lizard Wizard and The Flaming Lips, Halo Vair aims to please with
-    bombastic instrumentals, crafty songwriting and wall-of-sound production.
+    In a Toronto home studio, Halo Vair materializes at the intersection of obsession and revelation. Victor Zohni's
+    singular project operates like a prism, taking the white light of neo-psychedelic tradition and fracturing it into
+    something entirely new.
   </p>
 
   <p>
-    "Synonym," the sophomore EP from Toronto’s Halo Vair, delivers a potent blend of alternative rock. From the
-    atmospheric haze of shoegaze to the infectious vibes of neo-psychedelia, this EP offers a diverse sonic journey.
-    With a subtle theme of driving rhythms weaving through each track, "Synonym" ensures an unyielding momentum that
-    keeps you immersed in the groove from start to finish.
+    What emerges is neither purely vintage nor entirely modern, but something that lives in the spaces between.
+    Atmospheric, driving, hypnotic.
   </p>
 
-  <p>
-    For the live experience, Zohni plays alongside bassist Vas Palantzas and drummer Aaron Keogh. The band has been
-    performing live streams and bringing an improv-heavy all-rocking show to venues across Canada and beyond.
+  <p class="smaller-text">
+    The latest single "People of the Sky" sees Zohni reimagining Sloan's Canadian classic through a neo-psychedelic
+    lens. Canadians covering Canadians, filtered through decades of sonic evolution and studio obsession.
   </p>
 
   <p>For official EPK, please email Halo Vair at halovair@gmail.com</p>
   <br /><br /><br />
 
-  <img class="img-center" src="https://i.imgur.com/Lj9BhGe.jpg" alt="Victor Zohni" scale="0" title="Victor Zohni" />
-  <p class="img-caption">Victor Zohni. Credit: David Belenski</p>
+  <img class="img-center" src={VZSolo1} alt="Victor Zohni" title="Victor Zohni" />
+  <p class="img-caption">Victor Zohni. Credit: Elijah Shark</p>
+
+    <img class="img-center" src={VZSolo2} alt="Victor Zohni" title="Victor Zohni" />
+  <p class="img-caption">Victor Zohni. Credit: Elijah Shark</p>
+
+      <img class="img-center" src={VZLive1} alt="Victor Zohni" title="Victor Zohni" />
+  <p class="img-caption">Halo Vair Live @ Horseshoe Tavern. Credit: Adam Altomare</p>
+
+      <img class="img-center" src={VZLive2} alt="Victor Zohni" title="Victor Zohni" />
+  <p class="img-caption">Halo Vair Live @ Horseshoe Tavern. Credit: Adam Altomare</p>
 
   <img class="img-center" src="https://i.imgur.com/6ZXzJwJ.jpg" alt="Halo Vair Live" title="Live lineup of Halo Vair" />
 
   <p class="">2023 Live lineup of Halo Vair. Credit: David Belenski</p>
   <p class="img-caption">From left to right: Vas Palantzas, Victor Zohni, Aaron Keogh</p>
 
-  <img
-    class="img-center"
-    src="https://i.imgur.com/wXfC8W7.jpg"
-    alt="Halo Vair Live"
-    scale="0"
-    title="Live lineup of Halo Vair"
-  />
+  <img class="img-center" src="https://i.imgur.com/wXfC8W7.jpg" alt="Halo Vair Live" title="Live lineup of Halo Vair" />
 
   <p class="img-caption">2023 Live lineup of Halo Vair. Credit: David Belenski</p>
 
-  <img
-    class="img-center"
-    src="https://i.imgur.com/IsdSRXN.jpg"
-    alt="Halo Vair Live"
-    scale="0"
-    title="Live lineup of Halo Vair"
-  />
+  <img class="img-center" src="https://i.imgur.com/IsdSRXN.jpg" alt="Halo Vair Live" title="Live lineup of Halo Vair" />
 
   <p class="img-caption">2023 Live lineup of Halo Vair. Credit: David Belenski</p>
 
-  <a
-    class="link-wrapper-text"
-    href="https://drive.google.com/drive/folders/1Eq0wwT9SDxZ74P6FRY1A7_JukeswM9cr?usp=sharing"
-    >View all Photos from David Belenski shoot here
-  </a>
 
   <br /> <br /> <br />
 
@@ -72,7 +65,6 @@
     class="img-center"
     src="https://images.squarespace-cdn.com/content/v1/629f99cac1f5b75bdaa22ec1/1684524781173-0R38ZZL76TLQY5D9RGO1/sro-9-1539.jpg?format=2500w"
     alt="Halo Vair Live"
-    scale="0"
     title="Halo Vair"
   />
 
@@ -84,7 +76,6 @@
     class="img-center"
     src="https://images.squarespace-cdn.com/content/v1/629f99cac1f5b75bdaa22ec1/1684524801388-81A8RLVVGGMOB6DXQ8HO/sro-9-1577.jpg?format=2500w"
     alt="Halo Vair Live"
-    scale="0"
     title="Halo Vair"
   />
 
@@ -96,7 +87,6 @@
     class="img-center"
     src="https://images.squarespace-cdn.com/content/v1/629f99cac1f5b75bdaa22ec1/1684524858524-RB8KJ53GM2KUQBHV7W2U/sro-9-1696.jpg?format=2500w"
     alt="Halo Vair Live"
-    scale="0"
     title="Halo Vair"
   />
 
@@ -104,40 +94,16 @@
   <a class="link-wrapper-text" href="https://www.smokingroomonly.ca/sro-9">View all Photos from Piston Show here </a>
   <br /> <br /> <br />
 
-  <img
-    class="img-center"
-    src="https://i.imgur.com/GJAAxVB.jpg"
-    alt="Halo Vair Live"
-    scale="0"
-    title="Live lineup of Halo Vair"
-  />
+  <img class="img-center" src="https://i.imgur.com/GJAAxVB.jpg" alt="Halo Vair Live" title="Live lineup of Halo Vair" />
 
   <p class="">2018 Live lineup of Halo Vair. Credit: John Jacques</p>
   <p class="img-caption">From left to right: Vasili Arnokouros, Victor Zohni, Vas Palantzas</p>
 
-  <img class="img-center" src="https://i.imgur.com/nM0x651.png" alt="Halo Vair Live" scale="0" title="Halo Vair" />
+  <img class="img-center" src="https://i.imgur.com/nM0x651.png" alt="Halo Vair Live" title="Halo Vair" />
 
   <p class="img-caption">Halo Vair live @ Living Colour in Toronto. Credit: MG Ommert</p>
 
-  <hr />
 
-  <img
-    class="img-center"
-    src="https://i.imgur.com/O8bURln.jpeg"
-    alt="Synonym EP Album cover by Victor Zohni"
-    title="Synonym EP cover"
-  />
-
-  <p class="img-caption">Synonym EP Album cover by Victor Zohni</p>
-
-  <img
-    class="img-center"
-    src="https://i.imgur.com/0Wnkcwp.jpg"
-    alt="Definition EP Album cover by Victor Zohni"
-    title="Definition EP Album cover by Victor Zohni"
-  />
-
-  <p class="img-caption">Definition EP Album cover by Victor Zohni</p>
 
   <a class="link-wrapper-text" href={basepath}>Go Back</a>
 </main>
@@ -194,7 +160,7 @@
   }
 
   .logo {
-    margin-top:40px;
+    margin-top: 40px;
     height: 500px;
     padding: 1.5em;
     will-change: filter;

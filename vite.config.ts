@@ -5,5 +5,13 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 export default defineConfig({
   base: process.env.VITE_BASE_URL || "/",
-  plugins: [svelte()],
+  plugins: [
+    svelte({
+      compilerOptions: {
+        compatibility: {
+          componentApi: 4, // This line fixes your error
+        },
+      },
+    }),
+  ],
 });
