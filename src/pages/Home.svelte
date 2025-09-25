@@ -15,7 +15,7 @@
     <SocialMediaIcons />
     <div class="vertical-line"></div>
     <div class="link-wrapper">
-      <a class="link-wrapper-text" href="/bio">Bio & Press</a>
+      <a class="link-wrapper-text" href="#/bio">Bio & Press</a>
     </div>
   </div>
   <p>Quality, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>

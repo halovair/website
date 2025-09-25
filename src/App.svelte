@@ -4,30 +4,22 @@
 
   let currentPage = "home";
 
-  // Simple page switching functions
-  function showHome() {
-    currentPage = "home";
-    window.history.pushState({}, "", "/");
-  }
+  // Handle hash changes
+  function handleHashChange() {
+    const hash = window.location.hash;
 
-  function showBio() {
-    currentPage = "bio";
-    window.history.pushState({}, "", "/bio");
-  }
-
-  // Handle browser back/forward buttons
-  window.addEventListener("popstate", () => {
-    if (window.location.pathname === "/bio") {
+    if (hash === "#/bio") {
       currentPage = "bio";
     } else {
       currentPage = "home";
     }
-  });
-
-  // Set initial page based on URL
-  if (window.location.pathname === "/bio") {
-    currentPage = "bio";
   }
+
+  // Listen for hash changes (when user clicks back/forward or types URL)
+  window.addEventListener("hashchange", handleHashChange);
+
+  // Set initial page based on current hash
+  handleHashChange();
 </script>
 
 <main>
