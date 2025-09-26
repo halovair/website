@@ -47,10 +47,11 @@
   </div> -->
   <div class="bandcamp-container">
     <iframe
-      title="Halo Vair Bandcamp Player"
-      style="border: 0; width: 350px; height: 470px;"
-      src="https://bandcamp.com/EmbeddedPlayer/album=615285866/size=large/bgcol=ffffff/linkcol=7137dc/tracklist=false/transparent=true/"
-      seamless><a href="https://halovair.bandcamp.com/album/synonym">Synonym by Halo Vair</a></iframe
+      title="People Of The Sky - Halo Vair"
+      style="border: 0; width: 350px; height: 442px;"
+      src="https://bandcamp.com/EmbeddedPlayer/track=4244601278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+      seamless
+      ><a href="https://halovair.bandcamp.com/track/people-of-the-sky">People Of The Sky by Halo Vair</a></iframe
     >
   </div>
 
