@@ -15,14 +15,7 @@
   <a class="link-wrapper-text" href={basepath}>Go Back</a>
   <h1>Bio</h1>
   <p>
-    In a Toronto home studio, Halo Vair materializes at the intersection of obsession and revelation. Victor Zohni's
-    singular project operates like a prism, taking the white light of neo-psychedelic tradition and fracturing it into
-    something entirely new.
-  </p>
-
-  <p>
-    What emerges is neither purely vintage nor entirely modern, but something that lives in the spaces between.
-    Atmospheric, driving, hypnotic.
+    Halo Vair is the home recording project of GTA/Toronto multi-instrumentalist Victor Zohni. Fueled by an intense passion for music spanning vintage rock to modern electronic, Halo Vair’s sound refracts like light through a prism, sonic colours gleaming in every direction. Hope these lights brighten up your day.
   </p>
 
   <p class="smaller-text">
