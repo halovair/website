@@ -15,12 +15,13 @@
   <a class="link-wrapper-text" href={basepath}>Go Back</a>
   <h1>Bio</h1>
   <p>
-    Halo Vair is the home recording project of GTA/Toronto multi-instrumentalist Victor Zohni. Fueled by an intense passion for music spanning vintage rock to modern electronic, Halo Vair’s sound refracts like light through a prism, sonic colours gleaming in every direction. Hope these lights brighten up your day.
+    Halo Vair is the multi-faceted rock project of Toronto multi-instrumentalist Victor Zohni. A sound where vintage
+    instincts collide with modern edges.
   </p>
 
-  <p class="smaller-text">
-    The latest single "People of the Sky" sees Zohni reimagining Sloan's Canadian classic through a neo-psychedelic
-    lens. Canadians covering Canadians, filtered through decades of sonic evolution and studio obsession.
+  <p>
+    Rounded out live by bassist Vaz Palantzas and drummer Aaron Keogh, the trio carves out a lane all their own in the
+    world of alternative psych rock.
   </p>
 
   <p>For official EPK, please email Halo Vair at halovair@gmail.com</p>
@@ -29,13 +30,13 @@
   <img class="img-center" src={VZSolo1} alt="Victor Zohni" title="Victor Zohni" />
   <p class="img-caption">Victor Zohni. Credit: Elijah Shark</p>
 
-    <img class="img-center" src={VZSolo2} alt="Victor Zohni" title="Victor Zohni" />
+  <img class="img-center" src={VZSolo2} alt="Victor Zohni" title="Victor Zohni" />
   <p class="img-caption">Victor Zohni. Credit: Elijah Shark</p>
 
-      <img class="img-center" src={VZLive1} alt="Victor Zohni" title="Victor Zohni" />
+  <img class="img-center" src={VZLive1} alt="Victor Zohni" title="Victor Zohni" />
   <p class="img-caption">Halo Vair Live @ Horseshoe Tavern. Credit: Adam Altomare</p>
 
-      <img class="img-center" src={VZLive2} alt="Victor Zohni" title="Victor Zohni" />
+  <img class="img-center" src={VZLive2} alt="Victor Zohni" title="Victor Zohni" />
   <p class="img-caption">Halo Vair Live @ Horseshoe Tavern. Credit: Adam Altomare</p>
 
   <img class="img-center" src="https://i.imgur.com/6ZXzJwJ.jpg" alt="Halo Vair Live" title="Live lineup of Halo Vair" />
@@ -50,7 +51,6 @@
   <img class="img-center" src="https://i.imgur.com/IsdSRXN.jpg" alt="Halo Vair Live" title="Live lineup of Halo Vair" />
 
   <p class="img-caption">2023 Live lineup of Halo Vair. Credit: David Belenski</p>
-
 
   <br /> <br /> <br />
 
@@ -95,8 +95,6 @@
   <img class="img-center" src="https://i.imgur.com/nM0x651.png" alt="Halo Vair Live" title="Halo Vair" />
 
   <p class="img-caption">Halo Vair live @ Living Colour in Toronto. Credit: MG Ommert</p>
-
-
 
   <a class="link-wrapper-text" href={basepath}>Go Back</a>
 </main>
