@@ -18,7 +18,7 @@
       <a class="link-wrapper-text" href="#/bio">Bio & Press</a>
     </div>
   </div>
-  <p>Quality, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
+  <p>Expansive, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
 
   <div class="video-container">
     <iframe
@@ -45,27 +45,20 @@
       loading="lazy"
     ></iframe>
   </div> -->
-  <div class="bandcamp-container">
-    <iframe
-      title="People Of The Sky - Halo Vair"
-      style="border: 0; width: 350px; height: 442px;"
-      src="https://bandcamp.com/EmbeddedPlayer/track=4244601278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-      seamless
-      ><a href="https://halovair.bandcamp.com/track/people-of-the-sky">People Of The Sky by Halo Vair</a></iframe
-    >
-  </div>
+  <div class="bottom-row">
+    <div class="bandcamp-container">
+      <iframe
+        title="People Of The Sky - Halo Vair"
+        style="border: 0; width: 350px; height: 442px;"
+        src="https://bandcamp.com/EmbeddedPlayer/track=4244601278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+        seamless
+        ><a href="https://halovair.bandcamp.com/track/people-of-the-sky">People Of The Sky by Halo Vair</a></iframe
+      >
+    </div>
 
-  <div class="newsletter-wrapper">
-    <iframe
-      title="Halo Vair Newsletter Form"
-      width="540"
-      height="621"
-      src="https://7937f353.sibforms.com/serve/MUIFANWlkBkpxXL2QJGZIaE2x9k1Xtpogpnw7kOE90tFEQyhCQ5OzAKiNC-fJp_qdnr7t-Boc_hcrBJaKViaE7O_TfSu3Fg2lCMg8OcC3AQBGr53RtClsCDVMdhx1yxcGwmeznSgkGfi4z7CoqaBlu69C0tVGS-XV1GMN2pUP1NxclrjLo91d07u6AnFsQwx8HyDg-7dZAI9JvMh"
-      frameborder="0"
-      scrolling="auto"
-      allowfullscreen
-      style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
-    ></iframe>
+    <div class="newsletter-wrapper">
+      <BrevoForm />
+    </div>
   </div>
 
   <div class="footer">
@@ -76,8 +69,25 @@
 </div>
 
 <style>
-  .newsletter-wrapper {
+  .bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
     margin: 80px 0;
+    flex-wrap: wrap;
+  }
+
+  .newsletter-wrapper {
+    flex: 1;
+    min-width: 280px;
+    max-width: 540px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 24px rgba(179, 38, 239, 0.25), 0 4px 16px rgba(0, 0, 0, 0.4);
   }
   .footer {
     margin-top: 100px;
@@ -140,11 +150,17 @@
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   }
 
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
   .logo {
     height: 500px;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
+    animation: fadeIn 1.2s ease-in;
   }
   .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
@@ -162,6 +178,19 @@
     }
     .vertical-line {
       display: none;
+    }
+    .main-container {
+      padding: 20px;
+    }
+    .bottom-row {
+      gap: 24px;
+    }
+    .bandcamp-container iframe {
+      width: 100%;
+      max-width: 350px;
+    }
+    .footer {
+      margin-top: 40px;
     }
   }
 </style>

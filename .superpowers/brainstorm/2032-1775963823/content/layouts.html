@@ -1,0 +1,78 @@
+<h2>Homepage Layout Options</h2>
+<p class="subtitle">The top section (logo, nav, video) stays the same. These options show what goes below the video.</p>
+<p class="subtitle" style="margin-top:4px;">Key fix in all options: replace the scrolling newsletter iframe with the native form already in your codebase.</p>
+
+<div class="cards" style="margin-top: 32px;">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e; padding: 20px; font-family: sans-serif;">
+      <!-- Option A mockup -->
+      <div style="background:#111; border-radius:4px; padding:10px; margin-bottom:8px; color:#aaa; font-size:11px; text-align:center;">▶ YouTube Video (full width)</div>
+      <div style="display:flex; gap:10px; margin-top:8px;">
+        <div style="flex:1; background:#222; border-radius:4px; padding:14px; text-align:center;">
+          <div style="color:#888; font-size:10px; margin-bottom:6px;">BANDCAMP</div>
+          <div style="background:#333; height:80px; border-radius:4px; display:flex;align-items:center;justify-content:center;color:#aaa;font-size:10px;">Album art + player</div>
+        </div>
+        <div style="flex:1; background:#222; border-radius:4px; padding:14px; text-align:center;">
+          <div style="color:#888; font-size:10px; margin-bottom:6px;">NEWSLETTER</div>
+          <div style="background:#333; height:20px; border-radius:3px; margin-bottom:6px;"></div>
+          <div style="background:#555; height:28px; border-radius:3px; display:flex;align-items:center;justify-content:center;color:#aaa;font-size:10px;">Subscribe</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Side by Side</h3>
+      <p>Bandcamp and newsletter sit in two equal columns. Compact, balanced. Works great on desktop; stacks vertically on mobile.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e; padding: 20px; font-family: sans-serif;">
+      <!-- Option B mockup -->
+      <div style="background:#111; border-radius:4px; padding:10px; margin-bottom:8px; color:#aaa; font-size:11px; text-align:center;">▶ YouTube Video (full width)</div>
+      <div style="background:#222; border-radius:4px; padding:14px; margin-top:8px; display:flex; gap:10px; align-items:center;">
+        <div style="width:90px; flex-shrink:0; background:#333; height:90px; border-radius:4px; display:flex;align-items:center;justify-content:center;color:#aaa;font-size:9px;">Album art</div>
+        <div style="flex:1;">
+          <div style="color:#aaa; font-size:11px; margin-bottom:4px;">People Of The Sky</div>
+          <div style="background:#444; height:8px; border-radius:2px; margin-bottom:4px;"></div>
+          <div style="background:#444; height:8px; border-radius:2px; width:60%;"></div>
+          <div style="color:#777; font-size:9px; margin-top:6px;">BANDCAMP</div>
+        </div>
+      </div>
+      <div style="border-top: 1px solid #333; margin: 10px 0;"></div>
+      <div style="background:#222; border-radius:4px; padding:14px; text-align:center;">
+        <div style="color:#888; font-size:10px; margin-bottom:6px;">JOIN THE NEWSLETTER</div>
+        <div style="display:flex; gap:6px;">
+          <div style="flex:1; background:#333; height:24px; border-radius:3px;"></div>
+          <div style="background:#555; padding:0 10px; height:24px; border-radius:3px; display:flex;align-items:center;color:#aaa;font-size:10px;">→</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Stacked, horizontal Bandcamp</h3>
+      <p>Bandcamp uses a horizontal layout (art + track info inline), then a slim newsletter bar below. Saves vertical space, feels more editorial.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e; padding: 20px; font-family: sans-serif;">
+      <!-- Option C mockup -->
+      <div style="background:#111; border-radius:4px; padding:10px; margin-bottom:8px; color:#aaa; font-size:11px; text-align:center;">▶ YouTube Video (full width)</div>
+      <div style="background:#222; border-radius:4px; padding:14px; margin-top:8px; text-align:center;">
+        <div style="color:#888; font-size:10px; margin-bottom:8px;">LISTEN</div>
+        <div style="background:#333; height:80px; border-radius:4px; display:flex;align-items:center;justify-content:center;color:#aaa;font-size:10px; margin-bottom:8px;">Bandcamp embed</div>
+      </div>
+      <div style="background: linear-gradient(135deg, #1a0a2e, #2a0a1e); border-radius:4px; padding:14px; margin-top:8px; text-align:center;">
+        <div style="color:#c084fc; font-size:10px; margin-bottom:6px; letter-spacing:2px;">STAY IN THE LOOP</div>
+        <div style="color:#e2d9f3; font-size:11px; margin-bottom:8px;">Get updates on new music & shows</div>
+        <div style="background:rgba(255,255,255,0.1); height:24px; border-radius:3px; margin-bottom:6px;"></div>
+        <div style="background:#7c3aed; height:24px; border-radius:3px; display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;">Subscribe</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Stacked with styled newsletter section</h3>
+      <p>Bandcamp centered, then newsletter gets its own visually distinct dark section with a purple accent — matches your brand color. Most visual impact.</p>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,66 @@
+<h2>Newsletter Form — Color Options</h2>
+<p class="subtitle">Your site is dark with purple accents (#b326ef). Here are 3 directions for the form.</p>
+
+<div class="cards" style="margin-top: 28px;">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: #111;">
+      <!-- Option A: Dark with purple accent -->
+      <div style="background: #1a1a1a; border: 1px solid #b326ef; border-radius: 6px; padding: 18px; max-width: 300px; margin: 0 auto; font-family: sans-serif; text-align: center;">
+        <p style="color: #fff; font-size: 14px; font-weight: bold; margin: 0 0 4px;">HALO VAIR Newsletter</p>
+        <p style="color: #aaa; font-size: 12px; margin: 0 0 14px;">Signup for news, upcoming gigs, media and more!</p>
+        <input style="width:100%;padding:8px;background:#2a2a2a;border:1px solid #444;border-radius:4px;color:#fff;box-sizing:border-box;margin-bottom:10px;" placeholder="Enter your email" disabled />
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;text-align:left;">
+          <input type="checkbox" disabled />
+          <span style="color:#aaa;font-size:11px;">I agree to receive newsletters...</span>
+        </div>
+        <button style="background:#b326ef;color:#fff;border:none;padding:8px 24px;border-radius:4px;cursor:pointer;width:100%;">Subscribe</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Dark + Purple</h3>
+      <p>Matches the site's dark aesthetic. Purple border and button. Feels cohesive with the rest of the page.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: #111;">
+      <!-- Option B: Deep purple gradient background -->
+      <div style="background: linear-gradient(135deg, #1a0530, #2d0b5a); border-radius: 6px; padding: 18px; max-width: 300px; margin: 0 auto; font-family: sans-serif; text-align: center; border: 1px solid #6d28d9;">
+        <p style="color: #e2d9f3; font-size: 14px; font-weight: bold; margin: 0 0 4px; letter-spacing: 1px;">HALO VAIR Newsletter</p>
+        <p style="color: #c4b5fd; font-size: 12px; margin: 0 0 14px;">Signup for news, upcoming gigs, media and more!</p>
+        <input style="width:100%;padding:8px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:4px;color:#fff;box-sizing:border-box;margin-bottom:10px;" placeholder="Enter your email" disabled />
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;text-align:left;">
+          <input type="checkbox" disabled />
+          <span style="color:#c4b5fd;font-size:11px;">I agree to receive newsletters...</span>
+        </div>
+        <button style="background:#7c3aed;color:#fff;border:none;padding:8px 24px;border-radius:4px;cursor:pointer;width:100%;box-shadow:0 0 12px rgba(124,58,237,0.5);">Subscribe</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Deep Purple Gradient</h3>
+      <p>Rich purple gradient background with light text. More immersive — the form feels like part of the brand, not a widget dropped in.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 20px; background: #111;">
+      <!-- Option C: Frosted / translucent dark -->
+      <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(179,38,239,0.4); border-radius: 8px; padding: 18px; max-width: 300px; margin: 0 auto; font-family: sans-serif; text-align: center; box-shadow: 0 0 30px rgba(179,38,239,0.15);">
+        <p style="color: #fff; font-size: 14px; font-weight: bold; margin: 0 0 4px; letter-spacing: 1px;">HALO VAIR Newsletter</p>
+        <p style="color: #ccc; font-size: 12px; margin: 0 0 14px;">Signup for news, upcoming gigs, media and more!</p>
+        <input style="width:100%;padding:8px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:4px;color:#fff;box-sizing:border-box;margin-bottom:10px;" placeholder="Enter your email" disabled />
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;text-align:left;">
+          <input type="checkbox" disabled />
+          <span style="color:#ccc;font-size:11px;">I agree to receive newsletters...</span>
+        </div>
+        <button style="background:transparent;color:#b326ef;border:1px solid #b326ef;padding:8px 24px;border-radius:4px;cursor:pointer;width:100%;">Subscribe</button>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Frosted Glass</h3>
+      <p>Translucent dark background with a subtle purple glow. Ghost-style subscribe button. Feels modern and minimal.</p>
+    </div>
+  </div>
+
+</div>
