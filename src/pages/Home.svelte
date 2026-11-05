@@ -4,6 +4,7 @@
   import Mailerlite from "../lib/Mailerlite.svelte";
   import BrevoForm from "../lib/BrevoForm.svelte";
   import { link } from "svelte-spa-router";
+  import subvertImage from "../assets/halo-vair-social-story-2.jpg";
   const basepath = import.meta.env.VITE_BASE_URL || "/";
 </script>
 
@@ -19,7 +20,27 @@
     </div>
   </div>
   <p>Expansive, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
+  <div class="bottom-row">
+    <div class="subvert-promo">
+      <p class="subvert-release-text">Our new single is out now, exclusively on Subvert!</p>
+      <a class="subvert-container" href="https://www.subvert.fm/halo-vair" target="_blank" rel="noopener noreferrer">
+        <img src={subvertImage} alt="Halo Vair on Subvert" />
+      </a>
+    </div>
+    <!-- <div class="bandcamp-container">
+      <iframe
+        title="People Of The Sky - Halo Vair"
+        style="border: 0; width: 350px; height: 442px;"
+        src="https://bandcamp.com/EmbeddedPlayer/track=4244601278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+        seamless
+        ><a href="https://halovair.bandcamp.com/track/people-of-the-sky">People Of The Sky by Halo Vair</a></iframe
+      >
+    </div> -->
 
+    <div class="newsletter-wrapper">
+      <BrevoForm />
+    </div>
+  </div>
   <div class="video-container">
     <iframe
       width="5120"
@@ -31,34 +52,6 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
-  </div>
-
-  <!-- <div class="spotify-container">
-    <iframe
-      title="Spotify"
-      style="border-radius:12px"
-      src="https://open.spotify.com/embed/artist/4qjr6ECyk3yhokw8onrIAu?utm_source=generator"
-      width="100%"
-      height="500"
-      frameBorder="0"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
-  </div> -->
-  <div class="bottom-row">
-    <div class="bandcamp-container">
-      <iframe
-        title="People Of The Sky - Halo Vair"
-        style="border: 0; width: 350px; height: 442px;"
-        src="https://bandcamp.com/EmbeddedPlayer/track=4244601278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-        seamless
-        ><a href="https://halovair.bandcamp.com/track/people-of-the-sky">People Of The Sky by Halo Vair</a></iframe
-      >
-    </div>
-
-    <div class="newsletter-wrapper">
-      <BrevoForm />
-    </div>
   </div>
 
   <div class="footer">
@@ -87,7 +80,9 @@
     box-sizing: border-box;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 0 24px rgba(179, 38, 239, 0.25), 0 4px 16px rgba(0, 0, 0, 0.4);
+    box-shadow:
+      0 0 24px rgba(179, 38, 239, 0.25),
+      0 4px 16px rgba(0, 0, 0, 0.4);
   }
   .footer {
     margin-top: 100px;
@@ -137,6 +132,29 @@
     width: 100%;
     height: 100%;
   }
+  .subvert-promo {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 100px;
+  }
+  .subvert-release-text {
+    margin: 0 0 16px;
+    color: white;
+    font-size: 20px;
+  }
+  .subvert-container {
+    display: block;
+  }
+  .subvert-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 200ms ease;
+  }
+  .subvert-container:hover img,
+  .subvert-container:focus-visible img {
+    filter: drop-shadow(0 0 18px rgba(179, 38, 239, 0.8));
+  }
   .background {
     background-image: url("../assets/bk_no_gradient.webp");
     width: 100%;
@@ -151,8 +169,12 @@
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .logo {

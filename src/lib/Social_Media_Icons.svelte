@@ -1,4 +1,6 @@
-<script></script>
+<script>
+  import subvertIcon from "../assets/subvert-world-icon.png";
+</script>
 
 <div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: center;">
   <a
@@ -123,6 +125,20 @@
         />
       </defs>
     </svg>
+  </a>
+  <a
+    href="https://www.subvert.fm/halo-vair"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="text-decoration:none;border:0;width:56px;height:56px;padding:0;margin:3px;color:#ffffff;"
+  >
+    <img
+      src={subvertIcon}
+      alt="Subvert social icon"
+      width="56"
+      height="56"
+      style="display:block;"
+    />
   </a>
 </div>
 

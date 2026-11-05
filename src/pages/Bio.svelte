@@ -15,13 +15,11 @@
   <a class="link-wrapper-text" href={basepath}>Go Back</a>
   <h1>Bio</h1>
   <p>
-    Halo Vair is the multi-faceted rock project of Toronto multi-instrumentalist Victor Zohni. A sound where vintage
-    instincts collide with modern edges.
+    Halo Vair is the home recording project of GTA multi-instrumentalist Victor Zohni. Fueled by an intense passion for music spanning vintage rock to modern electronic, VZ spreads positive vibes to all. Hello there
   </p>
 
   <p>
-    Rounded out live by bassist Vaz Palantzas and drummer Aaron Keogh, the trio carves out a lane all their own in the
-    world of alternative psych rock.
+    Rounded out live by bassist Vaz Palantzas and drummer Aaron Keogh, the trio carves out a lane all their own in the world of alternative psych rock.
   </p>
 
   <p>For official EPK, please email Halo Vair at halovair@gmail.com</p>
