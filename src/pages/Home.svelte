@@ -22,7 +22,7 @@
   <p>Expansive, spaced out, wall-of-sound Rock from GTA/Toronto, Canada</p>
   <div class="bottom-row">
     <div class="subvert-promo">
-      <p class="subvert-release-text">The new single "Mr. Meaning" is out now, exclusively on Subvert!</p>
+      <p class="subvert-release-text">New single "Mr. Meaning" is out now, LISTEN exclusively on Subvert!</p>
       <a class="subvert-container" href="https://www.subvert.fm/halo-vair" target="_blank" rel="noopener noreferrer">
         <img src={subvertImage} alt="Halo Vair on Subvert" />
       </a>
@@ -45,7 +45,7 @@
     <iframe
       width="5120"
       height="315"
-      src="https://www.youtube.com/embed/MZRogU-LTgk?si=WnCKT6ms8aR9tMlH"
+      src="https://www.youtube.com/embed/w3UnK7sAzsw?si=u-fotlafTcaVgQdC"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
